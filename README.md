@@ -20,7 +20,7 @@ Raw text is processed prior to modeling using pandas dataframes to do basic toke
 
 ## Design
 
-The classifier is trained in Google Colab and uploaded to a FastAPI server on Heroku. Because the data is consumed by the client organization in Excel, an M-language workbook query fetches model predictions into a spreadsheet.
+The classifier is trained offline and uploaded to a FastAPI server on Heroku. Because the data is consumed by the client organization in Excel, an M-language workbook query fetches model predictions into a spreadsheet. 
 
 ## Model Selection
 

@@ -34,6 +34,8 @@ For the neural nets, PyTorch Dataloaders are constructed with the dictionaries t
 
 In this real-world scenario, little existing training data was available to classify the several thousand materials. A random sampling of less than 1,000 materials was sent to a handful of individuals for manual spreadsheet completion given the calendar time allotted and used as training data.
 
+Raw data is taken at a point in the material creation pipeline where a text description is created by the lab and is not yet sent to commercial production.
+
 ## Evaluation Method
 
 Nothing complicated here. n-fold cross validation is done to randomize the splits and the accuracy scores are averaged (not demonstrated publicly).

@@ -28,7 +28,7 @@ Non-NLP classifiers are ruled out to save implementation time. Accessing the pro
 
 Unigram and bigram models are demonstrated as language model baselines.
 
-For the neural nets, PyTorch Dataloaders are constructed with the dictionaries that feed the neural models in batches. The models are comprise an embedding layer, bidirectional GRU layers, the last hidden time step is concatenated and passed to a regularizing dropout layer prior to a linear output layer. Random word embedding vectors are initialized for learning during training. Softmax is applied during training: done with the ADAM optimizer and cross-entropy loss.
+For the neural nets, PyTorch Dataloaders are constructed with the dictionaries that feed the neural models in batches. The models comprise an embedding layer, bidirectional GRU layers, the last hidden time step is concatenated and passed to a regularizing dropout layer prior to a linear output layer. Random word embedding vectors are initialized for learning during training. Softmax is applied during training: done with the ADAM optimizer and cross-entropy loss.
 
 ## Data
 
